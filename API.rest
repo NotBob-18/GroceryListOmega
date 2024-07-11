@@ -1,0 +1,19 @@
+###
+@SERVER = http://localhost:8082
+
+
+### Get all grocery list items
+GET {{SERVER}}/grocery
+
+
+### Create grocer list item
+POST {{SERVER}}/grocery/create
+
+
+### Delete grocery list item
+DELETE {{SERVER}}/grocery/delete/00
+
+
+### Update grocery list item using Grocery Model and taskId
+PUT {{SERVER}}/grocery/update/00
+
